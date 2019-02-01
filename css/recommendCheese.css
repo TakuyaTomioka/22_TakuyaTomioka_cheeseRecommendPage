@@ -36,6 +36,23 @@ body{
     CONTENTS
 --------------------*/
 
+.title-reco {
+    font-size: 40px;
+}
+
+.box-description {
+    display: flex;
+}
+
+.cheese-picture {
+    width: 400px;
+    height: 400px;
+}
+
+/* -----------------------
+    Today's Recommendation
+--------------------------*/
+
 .today-recommendation {
     padding-top: 50px;
     font-size: 40px;
