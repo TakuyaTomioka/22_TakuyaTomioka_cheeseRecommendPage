@@ -38,7 +38,7 @@
             <li><a href="#">チーズアカデミーに入学する</a></li>
         </ul>
     </aside>
-    <section>
+    <section class="wrapper">
         <div class="wrapper-title">
             <div class="main-img">
                 <h2 class="main-title">オススメの<span class="yellow">チーズ<span></h1>

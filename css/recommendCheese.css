@@ -8,14 +8,7 @@ body{
 /* ----------------
     MAIM-VISUAL 
 ------------------*/
-.box-center {
-    margin: auto;
-}
-.wrapper {
-    margin-top: 60px;
-    margin-left: 60px;
-    width: 100%;
-}
+
 .main-img {
     height: 700px;
     background: url(../kadaiImage/cheese-main.jpg) no-repeat center center;
