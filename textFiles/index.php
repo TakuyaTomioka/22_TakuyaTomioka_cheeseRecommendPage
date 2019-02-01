@@ -55,7 +55,7 @@
             <p class="text-center">卒業後、チーズ自給自足のバックアップはもちろんのこと、<br>
                     チーズ職人への就職・転職もサポートします。</p>
         </div>
-        <div class="gallery wrapper">
+        <div class="gallery">
             <ul>
                 <li><img src="../kadaiImage/about_01.jpg" alt="buffe"></li>
                 <li><img src="../kadaiImage/about_02.jpg" alt="firm"></li>

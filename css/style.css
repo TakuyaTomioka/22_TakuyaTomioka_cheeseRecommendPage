@@ -2,8 +2,12 @@
     COMMON CONFIG
 ***************/
 .wrapper{
-    max-width: 1366px;
-    margin: auto;
+    max-width: 100%;
+    /* add margin-top and left in wrapper
+    --------to center contents--------- */
+    margin-top: 60px;
+    margin-left: 60px;
+    /* margin: auto; */
 }
 .text-center{
     text-align: center;
@@ -89,7 +93,7 @@ h2{
 
 .gallery ul{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     list-style: none;
     padding: 0;
     margin: 0;
