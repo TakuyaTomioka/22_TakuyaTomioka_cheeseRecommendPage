@@ -1,0 +1,55 @@
+/* --------------------
+    common configuration
+---------------------- */
+
+body{
+    background-color: #fff;
+}
+/* ----------------
+    MAIM-VISUAL 
+------------------*/
+.box-center {
+    margin: auto;
+}
+.wrapper {
+    margin-top: 60px;
+    margin-left: 60px;
+    width: 100%;
+}
+.main-img {
+    height: 700px;
+    background: url(../kadaiImage/cheese-main.jpg) no-repeat center center;
+    background-size: cover;
+    /* main-titleに使っていたpadding-top:200px
+    ---------------をこちらに追加------------*/
+    padding-top: 240px;
+}
+
+.main-title {
+    /* padding-top: 200px; ---
+    ----------これは不要 -----*/
+    text-align: center;
+    font-size: 100px;
+    color: rgba(212, 216, 208, 0.856);
+    background: rgba(0,0, 0, 0.6);
+}
+
+
+.yellow {
+    color: rgb(223, 171, 29)
+}
+
+/* ------------------
+    CONTENTS
+--------------------*/
+
+.today-recommendation {
+    padding-top: 50px;
+    font-size: 40px;
+}
+
+.recommended-cheese {
+    margin-top: 30px;
+    width: 50%;
+    height: auto;
+}

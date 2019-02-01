@@ -1,0 +1,318 @@
+/**************
+    COMMON CONFIG
+***************/
+.wrapper{
+    max-width: 1366px;
+    margin: auto;
+}
+.text-center{
+    text-align: center;
+}
+
+/**************
+    HEADER
+***************/
+
+/*******NAV*******/
+
+nav ul{
+    list-style: none;
+}
+
+.nav-main{
+    width: 100%;
+    height: 60px;
+    background-color: #fff;
+}
+
+.logo{
+    margin: 0 30px;
+    padding-top: 5px;
+}
+/*******MAIN IMAGE*******/
+
+.main-visual{
+    background-image: url(../kadaiImage/mainbg.png) no-repeat center center;
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    margin-top: 60px;
+    margin-left: 60px;
+}
+
+.main-text{
+    display: block;
+    padding-top: 200px; 
+    font-size: 50px;
+    color: white;   
+}
+
+h1::after{
+    content:"チーズ職人養成学校「チーズアカデミーTOKYO」";
+    display: block;
+    font-size: 30px;
+    padding-top: 30px;
+}
+
+/**************
+    BODY
+***************/
+
+body{
+    margin: auto;
+}
+
+h2{
+    font-size: 24px;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    margin: 0px;
+}
+
+/* 日本語タイトル */
+.j-title{
+    font-size: 18px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+/*  ABOUT   */
+.about p{
+    margin-top:30px ;
+    margin-bottom: 40px;
+    line-height: 2;
+    font-size: 16px;
+}
+
+.gallery ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/*  COURSE  */
+.course_wrapper{
+    width: 100%;
+}
+
+.course_arrange{
+    margin-bottom: 60px;
+    line-height: 30px;
+}
+
+.course_main_visual{
+    display: flex;
+}
+
+.course_main_description{
+    padding-left: 50px;
+    margin: 0;
+    padding-top:120px;
+    padding-bottom:120px;
+    width: 100%;
+    background-color: rgb(223, 221, 221);
+}
+
+.course_main_description_left{
+    text-align: left;
+    margin: 0;
+    padding: 120px 50px 120px 200px;
+    width: 50%;
+    background-color: rgb(223, 221, 221);
+}
+.course_title_left{
+    text-align-last: left;
+}
+
+.course_main_visual_left{
+    width: 50%;
+}
+
+.course_title_right{
+    text-align: left;
+    padding-bottom: 40px;
+}
+
+/*  NEWS    */
+.news_img:hover{
+    opacity: 0.5;
+}
+
+.news_title{
+    font-size: 24px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.news_arrange{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: 60px;
+}
+
+.news_eyecatch{
+    width: 300px;
+}
+
+.news_date{
+    font-size: 16px;
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 24px;
+}
+.news_description{
+    font-size: 14px;
+    line-height: 30px;
+    text-align: left;
+}
+
+.arrange{
+    margin: 0 30px;
+}
+.btn{
+    display:block;
+    width: 300px;
+    height: 60px;
+    background-color: #ffc107;
+    color:#fff;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 15px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin: auto;
+}
+
+/* ACCESS */
+
+.access_bgc{
+    margin-top: 60px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: rgb(223, 221, 221);
+}
+
+.access_title{
+    padding-top: 0px;
+}
+
+.map{
+    margin-top: 60px;
+    text-align: center;
+    width: 100%;
+}
+
+.place_box{
+    width: 600px;
+    margin: auto;
+}
+
+.place{
+    display: flex;
+    justify-content: space-between;
+}
+.place_title{
+    margin: 12.5px 0;
+    margin-left: 50px;
+}
+
+.place_detail{
+    width: 350px;
+    margin: 12.5px 0;
+    text-align: left;
+}
+
+.place_arrange{
+    margin-bottom: 60px;
+}
+
+/*  CONTACT  */
+
+.contact_j_arrange{
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.contact_j_desctiption{
+    margin-bottom: 70px;
+}
+
+.contact_arrange{
+    line-height: 30px;
+}
+
+.form_wrapper{
+    width: 800px;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 0px;
+}
+.form_inner{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form_title{  
+    width: 200px;
+    margin-left: 200px;
+    padding: 3px 0 0 0;
+}
+
+.form_title.check_radio{
+    padding: 0;
+}
+
+.form_item{
+    width: 350px;
+}
+
+.box_space{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 3px;
+}
+
+.submit_arrange{
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    margin-top: 30px;
+    margin-bottom: 140px;
+}
+
+.form_label{
+    margin: 0 16px 0 0;
+    font-size: 0.8rem;
+}
+
+input[type*="radio"]{
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 16px;
+    height: 16px;
+    margin: 0 10px 0 0;
+    border: solid 1px #a0a0a0;
+    vertical-align: -4px;
+}
+
+input[type*="radio"]:checked{
+    background-color: #ffc107;
+    border-radius: 50%;
+}
+
+/**************
+    FOOTER
+***************/
+.footer_wrapper{
+    width: 100%;
+    background-color: #707070;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px; 
+    color: #fff;
+}
