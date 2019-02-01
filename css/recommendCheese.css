@@ -40,11 +40,22 @@ body{
     font-size: 40px;
 }
 
-.box-description {
+.box-wrapper {
     display: flex;
+    justify-content: center;
 }
 
 .cheese-picture {
+    width: 400px;
+    height: 400px;
+}
+
+.contents{
+    font-size: 16px;
+    text-align: center;
+}
+
+.wine-picture {
     width: 400px;
     height: 400px;
 }
