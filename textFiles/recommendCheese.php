@@ -45,6 +45,26 @@
             </div>
         </div>
     </section>
+    <!-- このページの説明 -->
+    <section　class="wrapper">
+        <h2>その日の気分に合わせたチーズとワインをセレクト</h2>
+        <div class="box-description">
+            <div class="picture">
+                <!-- ここにチーズの写真 -->
+            </div>
+            <div class="description">
+                <!-- ここに説明を記述 -->
+            </div>
+        </div>
+        <div class="box-description">
+            <div class="description">
+                <!-- ここに説明を記述 -->
+            </div>
+            <div class="picture">
+                <!-- ここにワインの写真 -->
+            </div>
+        </div>
+    </section>
     <!-- 曜日からオススメのチーズとワインを表示 -->
     <section class="wrapper">
         <?php
