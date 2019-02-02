@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/nav.css">
     <link rel="stylesheet" href="../css/recommendCheese.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
@@ -38,16 +39,19 @@
             <li><a href="#">チーズアカデミーに入学する</a></li>
         </ul>
     </aside>
-    <section class="wrapper">
+    <section>
         <div class="wrapper-title">
             <div class="main-img">
                 <h2 class="main-title">オススメの<span class="yellow">チーズ<span></h1>
             </div>
         </div>
     </section>
-    <section　class="wrapper">
-        <h2 class="title-reco">その日の気分に合わせたチーズとワインをセレクト</h2>
-        <div class="box-wrapper">
+    <!-- sectionにclassは適用されない? -->
+    <section>
+        <div class="wrapper-reco">
+            <h2 class="title-reco">その日の気分に合わせたチーズとワインをセレクト</h2>
+        </div>
+        <div class="box-wrapper" style="display:flex; justify-content: center">
             <p class="cheese-picture"><img src="../kadaiImage/cheese2.jpg" alt="チーズ"></p>
             <p class="contents">チーズ好きの為の、チーズ好きによる、チーズの為のページ<br>
             チーズ好きの為の、チーズ好きによる、チーズの為のページ<br>
@@ -60,7 +64,7 @@
             チーズ好きの為の、チーズ好きによる、チーズの為のページ<br>
             </p>
         </div>
-        <div class="box-wrapper">
+        <div class="box-wrapper" style="display:flex; justify-content: center">
             <div class="contents">
             <p>ワイン好きの為の、ワイン好きによる、ワインの為のページ<br>
             ワイン好きの為の、ワイン好きによる、ワインの為のページ<br>

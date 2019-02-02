@@ -5,9 +5,13 @@
 body{
     background-color: #fff;
 }
+
 /* ----------------
     MAIM-VISUAL 
 ------------------*/
+.wrapper-title {
+    margin-left: 60px;
+}
 
 .main-img {
     height: 700px;
@@ -25,6 +29,7 @@ body{
     font-size: 100px;
     color: rgba(212, 216, 208, 0.856);
     background: rgba(0,0, 0, 0.6);
+    font-family: "Noto Sans JP";
 }
 
 
@@ -35,19 +40,28 @@ body{
 /* ------------------
     CONTENTS
 --------------------*/
+.wrapper-reco {
+    width: 100%;
+    margin-left: 60px;
+}
 
 .title-reco {
     font-size: 40px;
+    color: rgb(255, 208, 0);
+    font-family: "Noto Sans JP";
+    padding-bottom: 60px;
+    margin:60px;
 }
 
 .box-wrapper {
     display: flex;
     justify-content: center;
+    background-color: rgb(216, 17, 17);
 }
 
 .cheese-picture {
     width: 400px;
-    height: 400px;
+    background-color: rgb(243, 14, 14);
 }
 
 .contents{
