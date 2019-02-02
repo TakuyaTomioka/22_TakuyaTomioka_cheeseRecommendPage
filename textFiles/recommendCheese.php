@@ -51,37 +51,36 @@
         <div class="wrapper-reco">
             <h2 class="title-reco">その日の気分に合わせたチーズとワインをセレクト</h2>
         </div>
-        <div class="box-wrapper" style="display:flex; justify-content: center">
-            <p class="cheese-picture"><img src="../kadaiImage/cheese2.jpg" alt="チーズ"></p>
-            <p class="contents">チーズ好きの為の、チーズ好きによる、チーズの為のページ<br>
-            チーズ好きの為の、チーズ好きによる、チーズの為のページ<br>
-            チーズ好きの為の、チーズ好きによる、チーズの為のページ<br>
-            チーズ好きの為の、チーズ好きによる、チーズの為のページ<br>
-            チーズ好きの為の、チーズ好きによる、チーズの為のページ<br>
-            チーズ好きの為の、チーズ好きによる、チーズの為のページ<br>
-            チーズ好きの為の、チーズ好きによる、チーズの為のページ<br>
-            チーズ好きの為の、チーズ好きによる、チーズの為のページ<br>
-            チーズ好きの為の、チーズ好きによる、チーズの為のページ<br>
-            </p>
-        </div>
-        <div class="box-wrapper" style="display:flex; justify-content: center">
-            <div class="contents">
-            <p>ワイン好きの為の、ワイン好きによる、ワインの為のページ<br>
-            ワイン好きの為の、ワイン好きによる、ワインの為のページ<br>
-            ワイン好きの為の、ワイン好きによる、ワインの為のページ<br>
-            ワイン好きの為の、ワイン好きによる、ワインの為のページ<br>
-            ワイン好きの為の、ワイン好きによる、ワインの為のページ<br>
-            ワイン好きの為の、ワイン好きによる、ワインの為のページ<br>
-            ワイン好きの為の、ワイン好きによる、ワインの為のページ<br>
-            </p>
+        <div class="box-wrapper" style="display: flex; justify-content: center; margin: 30px 0; align-items: flex-end;
+}">
+            <div>
+                <p class="cheese-picture"><img src="../kadaiImage/cheese2.jpg" alt="チーズ"></p>
             </div>
-            <div class="picture">
-            <p><img src="../kadaiImage/cheese-wine.jpg" alt="ワイン"></p>
+            <div>
+                <p class="contents-cheese">チーズ好きの為の、チーズ好きによる、チーズの為のページ<br>
+                チーズ好きの為の、チーズ好きによる、チーズの為のページ<br>
+                チーズ好きの為の、チーズ好きによる、チーズの為のページ<br>
+                チーズ好きの為の、チーズ好きによる、チーズの為のページ<br>
+                </p>
+            </div>
+        </div>
+        <!-- clsssが適用されない -->
+        <div class="box-wrapper" style="display: flex; justify-content: center; margin: 30px 0; align-items: flex-end;
+}">
+            <div class="contents-wine">
+                <p>ワイン好きの為の、ワイン好きによる、ワインの為のページ<br>
+                ワイン好きの為の、ワイン好きによる、ワインの為のページ<br>
+                ワイン好きの為の、ワイン好きによる、ワインの為のページ<br>
+                ワイン好きの為の、ワイン好きによる、ワインの為のページ<br>
+                </p>
+            </div>
+            <div>
+                <p class="wine-picture"><img src="../kadaiImage/cheese-wine.jpg" alt="ワイン"></p>
             </div>
         </div>
     </section>
     <!-- 曜日からオススメのチーズとワインを表示 -->
-    <section class="wrapper">
+    <section class="wrapper-reco">
         <?php
         // 曜日を取得
         $date = date('w');

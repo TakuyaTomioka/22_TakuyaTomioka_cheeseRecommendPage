@@ -56,7 +56,8 @@ body{
 .box-wrapper {
     display: flex;
     justify-content: center;
-    background-color: rgb(216, 17, 17);
+    margin: 30px 0;
+    align-items: flex-end;
 }
 
 .cheese-picture {
@@ -64,14 +65,22 @@ body{
     background-color: rgb(243, 14, 14);
 }
 
-.contents{
-    font-size: 16px;
-    text-align: center;
+.contents-cheese{
+    font-size: 20px;
+    margin-left: 30px;
+    font-family: "Noto Sans JP";
+    line-height: 30px;
+}
+
+.contents-wine{
+    font-size: 20px;
+    margin-right: 30px;
+    font-family: "Noto Sans JP";
+    line-height: 30px;
 }
 
 .wine-picture {
     width: 400px;
-    height: 400px;
 }
 
 /* -----------------------
@@ -80,7 +89,8 @@ body{
 
 .today-recommendation {
     padding-top: 50px;
-    font-size: 40px;
+    font-size: 50px;
+    font-family: Noto Sans JP;
 }
 
 .recommended-cheese {
