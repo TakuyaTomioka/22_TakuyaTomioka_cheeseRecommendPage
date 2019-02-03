@@ -63,6 +63,7 @@ body{
 .cheese-picture {
     width: 400px;
     background-color: rgb(243, 14, 14);
+    border-radius: 30px;
 }
 
 .contents-cheese{
@@ -81,6 +82,7 @@ body{
 
 .wine-picture {
     width: 400px;
+    border-radius: 30px;
 }
 
 /* -----------------------
@@ -125,9 +127,33 @@ body{
     font-family: Noto Sans JP;
 }
 
+.wine-wrapper {
+
+}
+
 .wine-box {
-    margin-top: 60px;
+    margin: 60px 0;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* 表示されるワインの表示領域の調整 */
+.wine-name {
+    margin-top: 60px;
+    font-size: 40px;
+    font-family: Noto Sans JP;
+}
+
+.recommended-wine {
+    margin-top: 30px;
+    width: 500px;
+    height: 500px;
+    border-radius: 30px;
+}
+
+.wine-description {
+    margin-left: 50px;
+    font-size: 20px;
+    font-family: Noto Sans JP;
 }
