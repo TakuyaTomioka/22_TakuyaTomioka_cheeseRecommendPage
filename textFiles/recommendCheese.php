@@ -127,9 +127,30 @@
                 echo 'エラー：日付が取得できませんでした';
             }
         echo '</div>'
-        
-        
         ?>
+
+        <div>
+            <h3 class="text-center wine-recommendation">本日のワイン</h3>
+            <div　class="wine-wrapper">
+                <?php
+                $day = date('d');
+
+                if ($day/2 == 1){
+                    echo '<h3>白ワイン</h3>';
+                    echo '<div class="wine-box">';
+                        echo '<p>白ワイン（しろワイン）もしくは白葡萄酒は、<br>麦わら色、黄緑色、または黄金色を持つワインである。<br>任意の色の皮のブドウを用い、<br>皮を取り除いた非着色の果肉部分の<br>アルコール発酵することによって製造される。<br>白ワインは少なくとも2500年前から存在している。</p>';
+                        echo '<p class="text-center"><img src="../kadaiImage/white-wine.jpg" alt="白ワインの画像" class="recommended-wine"></p>';
+                    echo '</div>';
+                }else{
+                    echo '<h3>赤ワイン</h3>';
+                    echo '<div class="wine-box">';
+                        echo '赤ワインは、黒色のブドウ品種から作るワインの種類である。<br>ワインの色は、若いワインに典型的な<br>強い紫色から熟したワインの赤れんが色、<br>さらに古いものの茶色まで様々である。';
+                        echo '<p class="text-center"><img src="../kadaiImage/red-wine.jpg" alt="赤ワインの画像" class="recommended-wine"></p>';
+                    echo '</div>';
+                }
+                ?>
+            </div>
+        </div>
     </section>
 </body>
 <!-- Optional JavaScript -->

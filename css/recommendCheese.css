@@ -117,3 +117,17 @@ body{
     font-family: Noto Sans JP;
 }
 
+/* ワインのCSS */
+
+.wine-recommendation {
+    padding-top: 50px;
+    font-size: 50px;
+    font-family: Noto Sans JP;
+}
+
+.wine-box {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
