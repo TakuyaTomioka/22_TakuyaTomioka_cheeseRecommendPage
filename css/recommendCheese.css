@@ -92,9 +92,28 @@ body{
     font-size: 50px;
     font-family: Noto Sans JP;
 }
+.cheese-name {
+    margin-top: 60px;
+    font-size: 40px;
+    font-family: Noto Sans JP;
+}
+
+.cheese-box {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .recommended-cheese {
     margin-top: 30px;
-    width: 50%;
-    height: auto;
+    height: 500px;
+    border-radius: 30px;
 }
+
+.cheese-description {
+    margin-left: 50px;
+    font-size: 20px;
+    font-family: Noto Sans JP;
+}
+

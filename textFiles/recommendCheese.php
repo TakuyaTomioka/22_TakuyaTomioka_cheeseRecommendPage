@@ -94,12 +94,14 @@
 
         echo '<div>';
             if ($date == 0){
-                echo 'カマンベール';
-                echo '<p class="text-center"><img src="kadaiImage/cheese1.jpg" alt="チーズの盛り合わせ" class="recommended-cheese"></p>';
-                echo 'texttestefttttttttt';
+                echo '<p class="text-center cheese-name">カマンベール</p>';
+                echo '<div class="cheese-box">';
+                    echo '<p class="text-center"><img src="../kadaiImage/kamanbe-ru.jpg" alt="カマンベールの画像" class="recommended-cheese"></p>';
+                    echo '<p class="cheese-description">外側に白色のカビをつけて熟成させた<br>軟らかいナチュラルチーズ。<br>フランス北西部にあるノルマンディーの<br>カマンベール村の原産。</p>';
+                echo '</div>';
             }elseif($date == 1){
-                echo 'ゴルゴンゾーラ';
-                echo '<p class="text-center"><img src="kadaiImage/cheese2.jpg" alt="チーズの盛り合わせ" class="recommended-cheese"></p>';
+                echo '<h3 class="text-center cheese-name">ゴルゴンゾーラ</h3>';
+                echo '<p class="text-center"><img src="../kadaiImage/cheese2.jpg" alt="チーズの盛り合わせ" class="recommended-cheese"></p>';
                 echo 'xxxxxxxxxxxxxxx';
             }elseif($date == 2){
                 echo 'ブリードモー';
